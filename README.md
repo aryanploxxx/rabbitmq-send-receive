@@ -1,5 +1,18 @@
 # RabbitMQ - Message Broker
 
+## Directory Structure 
+```
+rabbitmq-send-receive/
+├── recieve/
+    ├── recieve.go
+├── send/
+    ├── send.go
+├── README.md
+├── docker-compose.yml
+├── go.mod
+└── go.sum
+```
+
 ## Project Setup
 
 1. Setup Dependencies
