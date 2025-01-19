@@ -10,6 +10,8 @@ import (
 	amqp "github.com/rabbitmq/amqp091-go" // RabbitMQ client package
 )
 
+// Add fanin, fanout, worker pull
+
 func main() {
 	// connect to RabbitMQ server
 	conn, err := amqp.Dial("amqp://user:1234@localhost:5672/")
